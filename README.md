@@ -24,7 +24,10 @@ To write a yacc program to recognize a valid arithmetic expression that uses ope
 
 8.	Enter an arithmetic expression as input and the tokens are identified as output.
 # PROGRAM
-```python
+# exp3cd_0117.l
+
+
+```
 %{
 #include "exp3cd_0117.tab.h"
 #include <stdio.h>
@@ -54,7 +57,12 @@ int yywrap()
     return 1;
 }
 ```
-```python
+
+
+
+ # exp3cd_0117.y
+
+```
 %{
 #include <stdio.h>
 #include <stdlib.h>
